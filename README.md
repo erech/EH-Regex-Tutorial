@@ -1,10 +1,12 @@
-# Title (replace with your title)
+# EH-Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+This repo is an introduction to regex (regular expressions).  
 
 ## Summary
+Regex is a tool used for pattern matching in text, which allows for more efficient data validation, text parsing, and replacing operations within code. 
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The main significance of regex is due to that fact that it's versatile, precise, and scalable. It can be used in a variety of platforms and can be used in both small and large data sets. 
+This tutorial will explain some things about the key components of regex. 
 
 ## Table of Contents
 
@@ -23,27 +25,45 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+Anchors are used to indicate the location of a match within a string.  
+The most common anchors are ^(start of line) and $(end of line).  
 
 ### Quantifiers
+Quantifiers specify how many times a character or group of characters should appear in a match.  
+Common quantifiers include *(zero or more times), + (one or more times), and ? (zero or one time).  
 
 ### OR Operator
+OR Operators are used to match any one of a set of characters or patterns.  
+The vertical bar (|) is commonly used as an OR operator.  
 
 ### Character Classes
+Cahracter classes are used to match a specific set of characters.  
+For instance , [aeiou] matches any vowel.  
 
 ### Flags
+A regular expression can be modified using flags.  
+Common flags include case-insensitive and global.  
 
 ### Grouping and Capturing
+These are used to combine elements of a regular expression and take note of a text that matches.  
+Using parentheses () allows you to group and capture.  
 
 ### Bracket Expressions
+These are employed to match any character that occurs within a predetermined set or range. For instance, any lowercase letter matches [a-z].
 
 ### Greedy and Lazy Match
+These refer to the behavior of quantifiers, and determine whether they should match as much as possible (greedy) or as little as possible (lazy).
 
 ### Boundaries
+These mark the start or stop of a word or a line.  
+Word boundaries (b) and A are examples of typical boundaries (start of string).
 
 ### Back-references
+These allow the user to use a regular expression to refer to previously captured groups.
 
 ### Look-ahead and Look-behind
+The terms "look-ahead" and "look-behind" are used to match text that occurs before or after a particular pattern without actually matching the pattern. The symbols for looking forward and looking behind are (?=) and (?=), respectively.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This tutorial is brought to you by erech. If you wish to learn more, refer to the following GitHub Profile : https://github.com/erech/EH-Regex-Tutorial
